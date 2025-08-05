@@ -3,8 +3,8 @@
     /**
      * @brief Disfunctiional but thought i'd show it still
      * @brief i forgot about dynamic allocation "new"
-     * @bug Stackoverflow - cnewArray inside a loop on the limited stack.
-     * @bug Bufferoverflow -Copying a large array (newArray) into a small, fixed-size array (arrArr)
+     * @bug - Stackoverflow - newArray inside a loop on the limited stack.
+     * @bug - Bufferoverflow -Copying a large array (newArray) into a small, fixed-size array (arrArr)
      */
 
     int doubleIt(int size);
@@ -54,7 +54,7 @@
 
             for (int i = 0; i < oldSize; i++)
             {
-                newArray[i] = arrArr[i]; // gets a whole copy from arrArr 
+                newArray[i] = arrArr[i]; // gets a whole copy from arrArrarrArr
             }
 
         
@@ -97,7 +97,3 @@
         }
     }
 
-    
-
-
-    //footnote segmentation fault was cause by accidentally doing i <= size on a earlier iteration
