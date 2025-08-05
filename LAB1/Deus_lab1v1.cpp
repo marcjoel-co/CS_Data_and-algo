@@ -1,7 +1,7 @@
     #include <iostream>
 
     /**
-     * @brief Disfunctiional but though i'd show it still
+     * @brief Disfunctiional but thought i'd show it still
      * @brief i forgot about dynamic allocation "new"
      * @bug Stackoverflow - cnewArray inside a loop on the limited stack.
      * @bug Bufferoverflow -Copying a large array (newArray) into a small, fixed-size array (arrArr)
